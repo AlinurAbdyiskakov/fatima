@@ -1,0 +1,137 @@
+* {
+    margin-top: 0;
+}
+
+aside .row img {
+    padding: 20px 90px;
+}
+
+header {
+    margin-top: 0;
+    background-color: #4E4E4E;
+    background-size: 100%;
+    height: 80px;
+    text-align: center;
+    padding: 15px;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 900;
+    margin-top: 30px auto;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+
+header nav ul li {
+    color: #fff;
+    padding: 0 20px 0 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    background-image: url(./image\ 1.png);
+    background-size: 100%;
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+main div {
+    width: 550px;
+}
+
+main div h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    color: #fff;
+    padding-top: 150px;
+}
+
+main div p {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+main div button {
+    background-color: #B5DA4E;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    width: 150px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+}
+
+aside {
+    height: 380px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+    align-content: center;
+}
+
+aside h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+aside .grow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+aside .row {
+    border: 1px solid #E7E7E7;
+    border-radius: 50px;
+    width: 300px;
+    height: 350px;
+    padding: 0 20px;
+}
+
+aside .row button {
+    background-color: #C4C4C4;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+}
+
+footer {
+    display: flex;
+    background: #4E4E4E;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background-size: 100%;
+    height: 200px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-top: 15px;
+    font-size: 20px;
+}
